@@ -184,7 +184,7 @@ body {
         }
     }
 
-    @include respondto(large) {
+    @include respondto('large') {
         margin-top: 0;
         align-self: flex-end;
 
@@ -211,7 +211,7 @@ body {
     padding: 0 2.375rem;
     box-sizing: border-box;
 
-    @include respondto(medium) {
+    @include respondto('medium') {
         padding: 0 4.75rem;
         
     }
